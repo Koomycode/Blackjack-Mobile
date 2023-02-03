@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Blackjack | Mobile App</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Serif:wght@400;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="game-interface"></div>
+
+        <div class="container">
+
+            <div class="sub-con">
+                <hr>
+                <h1 class="title">Blackjack</h1>
+                <hr>
+                <h3 id="title">
+                    Click play to start the game
+                </h3>
+            </div>
+
+            <div class="btn-con">
+                <button class="btn active" id="start">
+                    <span class="text">START</span>
+                    <span class="icon">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+                </button>
+                <button class="btn" id="draw">
+                    <span class="text">DRAW</span>
+                    <span class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </span>
+                </button>
+
+                <div class="indicator"></div>
+            </div>
+
+            <div class="text-con">
+                <div class="box">
+                    <h3>Cards</h3><span id="cards">: 0</span>
+                </div>
+                <hr>
+                <div class="box">
+                    <h3>Sum</h3><span id="sum">: 0</span>
+                </div>
+            </div>
+        </div>
+
+		<script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/53af5e9bb6.js" crossorigin="anonymous"></script>
+	</body>
+</html>
